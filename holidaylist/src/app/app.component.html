@@ -1,0 +1,7 @@
+Holidays are, {{allholidays.holidays | json}}
+
+<ul>
+<li *ngFor="let holiday of allholidays.holidays">
+            <a href="">{{holiday.date}}</a>
+  </li>
+  </ul>
